@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* box-sizing: border-box; */
+  font-family: "Outfit", sans-serif;
+}
+
+body {
+  background-color: hsl(217, 54%, 11%);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Outfit", sans-serif;
+  margin: 0;
+}
+
+.card {
+  background-color: hsl(216, 50%, 16%);
+  width: 280px;
+  border-radius: 15px;
+  margin: auto;
+  padding: 20px;
+}
+
+.card .equi {
+  width: inherit;
+  border-radius: 15px;
+}
+
+.card .title {
+  color: hsl(0, 0%, 100%);
+  padding-top: 20px;
+  font-weight: 400;
+}
+
+.card .main {
+  color: hsl(215, 51%, 70%);
+  padding-top: 20px;
+  /* line-height: 1.6; */
+  font-size: 17px;
+  font-weight: 300;
+}
+
+.card .sub-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  align-items: center;
+}
+
+.card .sub-container .item1 {
+  color: hsl(178, 100%, 50%);
+}
+.card .sub-container .item1 img {
+  width: 20px;
+  height: 20px;
+}
+
+.card .sub-container .item1 span {
+  padding-left: 10px;
+}
+
+.card .sub-container .item2 {
+  color: hsl(215, 51%, 70%);
+}
+
+.card .sub-container .item2 img {
+  width: 20px;
+  height: 20px;
+}
+
+.card .sub-container .item2 span {
+  padding-left: 10px;
+}
+
+.card .line {
+  border-bottom: 2px solid hsl(215, 32%, 27%);
+  padding: 10px;
+}
+.card .container-end {
+  display: flex;
+  margin-top: 15px;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.card .container-end img {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  border: 1px solid white;
+  margin-right: 15px;
+}
+
+.card .container-end #creation {
+  color: hsl(215, 51%, 70%);
+}
+
+.card .container-end #name {
+  color: hsl(0, 0%, 100%);
+  margin-left: 3px;
+}
+
+@media screen and (min-width: 768px) {
+  .card {
+    width: 350px;
+  }
+  .card .equi {
+    width: inherit;
+  }
+}
