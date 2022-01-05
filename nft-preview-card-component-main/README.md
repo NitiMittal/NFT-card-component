@@ -39,7 +39,8 @@ There is also a `style-guide.md` file containing the information you'll need, su
 
 # Links
 
-https://github.com/NitiMittal/NFT-card-component/tree/master/nft-preview-card-component-main
+Github: https://github.com/NitiMittal/NFT-card-component/tree/master/nft-preview-card-component-main
+Live URL: https://romantic-roentgen-521631.netlify.app/
 
 ### Built with
 
